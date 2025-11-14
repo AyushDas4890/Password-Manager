@@ -1,10 +1,5 @@
-# Python Projects Collection
+# Password Manager
 
-A collection of useful Python applications including a secure password manager and a real-time currency converter.
-
-## Projects
-
-### 🔐 Password Manager
 A secure command-line password manager that encrypts and stores your passwords using the Fernet symmetric encryption algorithm.
 
 ### 💱 Currency Converter
