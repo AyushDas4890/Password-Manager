@@ -2,8 +2,6 @@
 
 A secure command-line password manager that encrypts and stores your passwords using the Fernet symmetric encryption algorithm.
 
-### 💱 Currency Converter
-A real-time currency converter that fetches current exchange rates using the Free Currency API.
 
 ---
 
@@ -78,75 +76,11 @@ Would you like to add a new password or view existing ones (view, add), press q 
    chmod 600 key.key passwords.txt
    ```
 
----
-
-## 💱 Currency Converter
-
-### Features
-
-- 🌐 **Real-time Exchange Rates**: Fetches current exchange rates from Free Currency API
-- 🔄 **Multiple Currencies**: Supports USD, CAD, EUR, AUD, and CNY
-- 📊 **Easy to Use**: Simple command-line interface
-- 🔁 **Interactive Mode**: Continuous conversion until you quit
-
-### Requirements
-
-- Python 3.x
-- `requests` library
-
-### Installation
-
-```bash
-pip install requests
-```
-
-### Usage
-
-```bash
-python currency.py
-```
-
-**How to Use:**
-1. Enter a base currency code (e.g., `USD`, `EUR`, `INR`, `GBP`)
-2. The program will display conversion rates to: USD, CAD, EUR, AUD, CNY
-3. Enter `q` to quit
-
-**Example Session:**
-```
-Enter the base currency (q for quit): USD
-CAD: 1.4037601479
-EUR: 0.8599001263
-AUD: 1.5319001987
-CNY: 7.0951008179
-Enter the base currency (q for quit): EUR
-USD: 1.1629257508
-CAD: 1.632468824
-AUD: 1.7814861887
-CNY: 8.2510754457
-Enter the base currency (q for quit): q
-```
-
-### Supported Currencies
-
-The converter supports the following currencies:
-- **USD** - US Dollar
-- **CAD** - Canadian Dollar
-- **EUR** - Euro
-- **AUD** - Australian Dollar
-- **CNY** - Chinese Yuan
-
-### API Information
-
-This project uses the [Free Currency API](https://freecurrencyapi.com/) to fetch real-time exchange rates. The API provides up-to-date currency conversion data.
-
----
-
 ## File Structure
 
 ```
 password_manager/
 ├── password.py          # Password manager application
-├── currency.py          # Currency converter application
 ├── passwords.txt        # Encrypted password storage (not in git)
 ├── key.key             # Encryption key (not in git)
 ├── .gitignore          # Git ignore file for sensitive data
