@@ -1,0 +1,24 @@
+# Encryption key - DO NOT COMMIT
+key.key
+
+# Password storage file - DO NOT COMMIT
+passwords.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
